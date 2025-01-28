@@ -12,27 +12,24 @@ body {
 }
 .postcard-header {
 	display: flex;
-	border: white;
 }
 .postcard-header img {
 	width: 50px;
-	border: white;
 }
 .postcard-header h1 {
 	width: 350px;
-	border: white;
 }
 .postcard-body {
 	display: flex;
-	border: white;
 }
 .body-left p {
 	width: 250px;
-	border: white;
 }
+
 .body-left {
 	width: 200px;
 }
+
 .body-right {
 	width: 150px;
 	margin: 1px;
@@ -41,15 +38,13 @@ body {
 .body-left,
 .body-right {
 	padding: 1px;
-	border-color: white;
 }
 input {
-	border-color: white;
-	border-bottom: 1px;
+	border: none;
+	border-bottom: 0px;
 }
 .postcard-footer {
 	text-align: center;
-	border: black;
 }
 button {
 	background-color: grey;
